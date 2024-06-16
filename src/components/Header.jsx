@@ -5,7 +5,7 @@ import element from "../assets/element.png"
 
 const Header = () => {
   return (
-    <section>
+    <section className="overflow-hidden">
       <nav className="flex px-48 mt-20 w-screen font-mulish">
         <div className="flex gap-3 items-center">
           <div className="w-10 h-10 rounded-full bg-blue flex items-center justify-center">

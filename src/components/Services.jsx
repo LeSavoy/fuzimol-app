@@ -9,7 +9,7 @@ import secondElement from "../assets/secondElement.png"
 
 const Services = () => {
   return (
-    <section className="h-[1200px]">
+    <section className="h-[1220px] overflow-hidden">
       <div className=" flex flex-col items-center gap-10 mt-14">
         <h2 className="text-4xl font-semibold">Our services</h2>
         <hr className="w-14 bg-black h-[3px] border-none rounded-3xl " />
@@ -81,6 +81,7 @@ const Services = () => {
         <button className="w-52 h-14 border font-bold text-lg border-blue text-blue rounded-[35px]">Learn more</button>
       </div>
     </section>
+    
   );
 };
 
