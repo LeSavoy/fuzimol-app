@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scrollNav {
+  background-color: #458FF6;
+  height: 100px;
+  margin-top: 0;
+  align-items: center;
+  color: white;
+  transition: .2s all;
+}
+
+.scrollNav a {
+  color: white;
+}
+

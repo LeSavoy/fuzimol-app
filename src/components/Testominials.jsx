@@ -8,11 +8,11 @@ import arrowRight from '../assets/arrowRight.png'
 const Testominials = () => {
   return (
     <div>
-      <div className="flex justify-center mt-64">
-        <img className="relative" src={testimonialBg} alt="" />
+      <div className="flex justify-center mt-64" id="testimonials">
+        <img className="relative max-[600px]:h-[600px]" src={testimonialBg}  alt="" />
 
         <div className="absolute flex flex-col items-center">
-          <h4 className="text-4xl font-semibold text-white mt-16">
+          <h4 className="text-4xl font-semibold text-white mt-16 max-[600px]:text-2xl">
             What our customer are saying
           </h4>
           <hr className="w-14 bg-white h-[2px] border-none rounded-3xl mb-10 mt-9" />
@@ -27,8 +27,8 @@ const Testominials = () => {
         </div>
 
         
-        <div className="absolute flex gap-28 mt-56">
-          <div className="flex">
+        <div className="absolute flex gap-28 max-[600px]:gap-2 mt-56">
+          <div className="flex max-[600px]:flex-col max-[600px]:px-5 ">
             <img src={testimonialPhoto} className="mr-7" alt="" />
             <div className="flex flex-col justify-center">
               <span className="text-2xl text-white font-semibold">Edward Newgate</span>
@@ -37,7 +37,7 @@ const Testominials = () => {
           </div>
 
           <div className="max-w-[420px]">
-            <p className="text-white text-lg font-light text-pretty"> 
+            <p className="text-white text-lg font-light text-pretty max-[600px]:w-[200px]"> 
               “Our dedicated patient engagement app and web portal allow you to
               access information instantaneously (no tedeous form, long calls,
               or administrative hassle) and securely”

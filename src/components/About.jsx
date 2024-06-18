@@ -14,7 +14,7 @@ const About = () => {
         <hr className="w-14 bg-black h-[2px] mt-10 border-none rounded-3xl mb-20" />
       </div>
 
-      <div className="flex justify-center gap-9 mb-[72px]">
+      <div className="flex max-[600px]:flex-col max-[600px]:items-center justify-center gap-9 mb-[72px]">
         <div className="w-[350px] h-[512px] shadow-[#E7F2FF] shadow-2xl r rounded-2xl ">
           <img src={article1} className="rounded-t-2xl" alt="" />
           <h5 className="text-xl font-bold mt-6 mb-6 ml-8 mr-16">

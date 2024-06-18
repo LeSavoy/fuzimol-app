@@ -9,11 +9,11 @@ import secondElement from "../assets/secondElement.png"
 
 const Services = () => {
   return (
-    <section className="h-[1220px] overflow-hidden">
+    <section className="h-[1220px] max-[600px]:h-[3000px] overflow-hidden" id="find">
       <div className=" flex flex-col items-center gap-10 mt-14">
         <h2 className="text-4xl font-semibold">Our services</h2>
         <hr className="w-14 bg-black h-[3px] border-none rounded-3xl " />
-        <p className="text-lg text-lightGray text-center">
+        <p className="text-lg text-lightGray text-center max-[600px]:px-10">
           We provide to you the best choiches for you. Adjust it to your health
           needs and make sure your undergo treatment <br /> with our highly
           qualified doctors you can consult with us which type of service is
@@ -29,7 +29,7 @@ const Services = () => {
         <img src={secondElement} alt="" />
       </div>
 
-      <div className="grid grid-rows-2 grid-cols-3 justify-items-center mx-96 mt-24 gap-9">
+      <div className="grid grid-rows-2 max-[600px]:mx-0 max-[600px]:grid-cols-1  grid-cols-3 justify-items-center mx-96 mt-24 gap-9">
         <div className="w-[360px] h-[365px] pl-9 pt-12 border rounded-2xl bg-white border-none
                        shadow-[#E7F2FF] shadow-2xl">
           <img src={search} className="mb-10" alt="search" />
